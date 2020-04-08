@@ -37,7 +37,7 @@ class FormFields extends Component{
                     <input type="text" id="ename" name="name" onChange={this.handleInputChange} placeholder="Enter Employee Name" pattern="[a-zA-Z][a-zA-Z ]{4,}" required/>
                     <br/>
                     <label for="dob">Employee DOB</label>
-                    <input type="date" id="edob" name="Empdob" onChange={this.handleInputChange} placeholder="Enter Employee DOB"  required/>
+                    <input type="date" id="edob" name="Empdob" onChange={this.handleInputChange} placeholder="Enter Employee Date of birth"  required/>
                     <br/>     
                     <label for="address">Employee Address</label>
                     <input type="text" id="eadd" name="Empadd" onChange={this.handleInputChange} placeholder="Enter Employee Address" pattern="[a-zA-Z][a-zA-Z ]{4,}" required/>
